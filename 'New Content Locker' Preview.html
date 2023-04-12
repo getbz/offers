@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://www.cpagrip.com/view.php?id=1392319 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title>'New Content Locker' Preview</title>
+		<script type="text/javascript" src="./&#39;New Content Locker&#39; Preview_files/script_include.php"></script><script type="text/javascript" async="true" src="./&#39;New Content Locker&#39; Preview_files/preload.php"></script><script language="JavaScript">
+	if (typeof jQuery !== 'undefined' && typeof jQuery.browser === 'undefined') {
+		jQuery.browser = {};
+		(function () {
+		    jQuery.browser.msie = false;
+		    jQuery.browser.version = 0;
+		    if (navigator.userAgent.match(/MSIE ([0-9]+)\./)) {
+		        jQuery.browser.msie = true;
+		        jQuery.browser.version = RegExp.$1;
+		    }
+		})();
+	}
+	if (typeof jQuery !== 'undefined' && typeof jQuery.live === 'undefined') {
+		jQuery.fn.extend({
+		    live: function (event, callback) {
+		       if (this.selector) {
+		            jQuery(document).on(event, this.selector, callback);
+		        }
+		        return this;
+		    }
+		});
+	}	
+</script>
+<script language="JavaScript">
+	document.write('<div id="place_holder" style="position: fixed; top: 0; bottom: 0; left: 0; right: 0;">&nbsp;</div>');
+</script><script type="text/javascript" src="./&#39;New Content Locker&#39; Preview_files/jquery.min.js.تنزيل" onload="call2()"></script><script type="text/javascript" src="./&#39;New Content Locker&#39; Preview_files/jquery-ui.min.js.تنزيل" onload="call3()"></script><script type="text/javascript" src="./&#39;New Content Locker&#39; Preview_files/jquery.tipsy.js.تنزيل" onload="call4()"></script><script type="text/javascript" src="./&#39;New Content Locker&#39; Preview_files/scriptjs.php" onload="call5()"></script></head><body style="margin: 10px;">
+<link rel="stylesheet" href="./&#39;New Content Locker&#39; Preview_files/scriptcss.php">
+<script type="text/javascript" src="./&#39;New Content Locker&#39; Preview_files/ie_functions.js.تنزيل"></script>
+
+<script language="JavaScript">
+	var bypass = false;
+	var lck = true;
+	var js;
+	var html_doc = document.getElementsByTagName('head')[0];
+	var ref = document.referrer;
+	const CPABuildLock = call_locker;
+	
+	function call1(){
+				if (typeof jQuery != 'undefined') {
+			call2();
+			return;
+		}
+		
+		js = document.createElement('script');
+		js.setAttribute('type', 'text/javascript');
+		js.setAttribute('src', "//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js");
+		html_doc.appendChild(js);
+		js.setAttribute("onload", "call2()");
+		js.onreadystatechange = function () {
+			if(js.readyState == 'loaded' || js.readyState == 'complete'){call2();}
+		};
+		
+	}
+
+	function call2(){
+				js = document.createElement('script');
+		js.setAttribute('type', 'text/javascript');
+		js.setAttribute('src', "//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js");
+		html_doc.appendChild(js);
+		js.setAttribute("onload", "call3()");
+		js.onreadystatechange = function () {
+			if(js.readyState == 'loaded' || js.readyState == 'complete'){call3();}
+		}
+	}
+	function call3() {
+								
+			js = document.createElement('script');
+			js.setAttribute('type', 'text/javascript');
+			js.setAttribute('src', "https://www.cpagrip.com/common/js/jquery.tipsy.js");
+			html_doc.appendChild(js);
+			js.setAttribute("onload", "call4()");
+			js.onreadystatechange = function () {
+				if(js.readyState == 'loaded' || js.readyState == 'complete'){call4();}
+			}
+			}
+	
+	function call4(){
+				js = document.createElement('script');
+		js.setAttribute('type', 'text/javascript');
+		js.setAttribute('src', "https://www.cpagrip.com/common/scriptjs.php?l=jtuov3lzzk&s=t0byby1");
+		html_doc.appendChild(js);
+		js.setAttribute("onload", "call5()");
+		js.onreadystatechange = function () {
+			if(js.readyState == 'loaded' || js.readyState == 'complete'){call5();}
+		}
+	}
+	
+	var process_click = false;
+	var do_refire = false;
+	var dblchk = false;
+	var jquery_loaded = false;
+	var has_been_init;
+	var has_been_closed = false;
+	
+	function call5(){
+				jQuery('#place_holder').remove();
+		jquery_loaded = true;
+		if(has_been_init == true){
+			
+		}else{
+			jQuery.ajaxSetup({
+	        	cache: false
+	    	});
+	
+							jQuery('<img/>')[0].src = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7K9Q8RuMW6UNgJ-vSocyBhHwhmn2Kecz1CGJ__b8Fmxjv2N7h3zKwbBQSABS_TlVwrNhxKZEPOXa1A0Jkuhs2pj_SRT9AUdBNYwpC8E3_gto3M-4BqPmrt0w7N0s56GEEbOc43PixX-ni9w6eprVAK1q4uGWCqX9icBWMWPRJ38IdK6dC7W7cpndfjQ/s1600/x';
+						has_been_init = true;
+			if(do_refire){
+				do_refire = false;
+				call_locker();
+			}else{
+				
+									
+											call_locker();
+										
+							}
+		}
+	}
+	
+	var extra1;
+	function call_locker(){
+				extra1 = arguments[0];
+		if (has_been_closed == true) {
+			return;
+		}
+		fix_iframe_embed();
+					jQuery(document).bind("contextmenu",function(e){
+				if(process_click){
+					process_click = false;
+					jQuery("#jtuov3lzzk").effect("shake", { times:1 }, 100);
+					setTimeout('process_click = true;',500);
+				}
+				return false;
+			});
+				if(!jQuery.jtuov3lzzk){
+						has_been_init = false;
+			do_refire = true;
+			call1();
+		}
+		
+		
+		setTimeout(function(){
+			if(dblchk==false){
+								call_locker();
+			}else{
+							}
+		},500);
+		
+		jQuery.jtuov3lzzk({
+			title:"Please Complete Below Survey to Unlock This Protected Content.",			scrolling: false,
+			speed:600,
+			opacity:0.85,
+			inline:true,
+			
+			width:"517px",
+			height:"375px",
+			
+			href:"#qrwvsht",
+			fixed: true,
+			initialWidth: '50',
+			initialHeight: '50',
+			transition: '0.9',
+						onLoad: function() {
+				dblchk = true;
+				
+									jQuery('#t0byby1Close').remove();
+					jQuery('#t0byby1Close').remove();
+							}
+		});
+				var originalClose = jQuery.jtuov3lzzk.close;
+									jQuery.jtuov3lzzk.close = function(){
+					if(process_click){
+						process_click = false;
+						jQuery("#jtuov3lzzk").effect("shake", { times:1 }, 100, function(){
+	  						setTimeout('process_click = true;',500);
+						});
+					}
+				};
+										jQuery(function() {
+				if (typeof jQuery !== 'undefined' && typeof (jQuery('.tip_over_link').tipsy) !== 'undefined') {
+					jQuery('.tip_over_link').tipsy({offset: -3,gravity: 'w',fade: false,html: true,opacity: 0.95});
+				} else {
+									}
+			});
+				setTimeout('process_click = true;',1000);
+		
+		if(dblchk==false){
+							setTimeout('do_dblchk()',1000);
+					}
+				if (inline_html_init == false) {
+						if (typeof preload_data !== "undefined") {
+				update_inline_html(preload_data);
+			}
+		}
+					}
+	
+	call1();
+	
+	function do_dblchk(){
+		if(dblchk){
+			
+		}else{
+						call_locker();
+		}
+	}
+	
+	
+	function fix_iframe_embed(){
+				var url = '';
+		if(typeof jQuery.browser !== "undefined"){
+			if (jQuery.browser.msie) {
+				
+				jQuery('iframe').each(function(){
+					url = jQuery(this).attr("src");
+					if(typeof url == 'undefined'){
+						
+					}else{
+						var has_locker = jQuery(this).hasClass('locked_video');
+												if(url.search(/youtube.com\/embed/i)>0 && has_locker == false){
+							var v_width = jQuery(this).attr("width");
+							var v_height = jQuery(this).attr("height");
+							if(typeof v_width == 'undefined' || typeof v_height == 'undefined'){
+								
+							}else{
+								jQuery(this).after('<iframe class="locked_video" width="'+v_width+'" height="'+v_height+'" src="'+url+'?wmode=transparent">');
+								jQuery(this).remove();
+							}
+						}
+											}
+				});
+				if(jQuery.browser.version == '7.0' || jQuery.browser.version == '8.0'){
+					do_ie_replaces();
+				}else{
+					setTimeout("do_ie_replaces9();",100);
+				}
+				
+			}else{
+				
+				jQuery('object').each(function(){
+		            jQuery(this).find('embed').attr('wmode','transparent');
+		            if(jQuery(this).find('param[name=wmode]').attr('value') != 'transparent') {
+		                jQuery(this).prepend('<param name="wmode" value="transparent" />');
+		            }
+		            temp_var = jQuery(this).parent().html();
+		            jQuery(this).parent().html(temp_var);
+		    	});
+				jQuery('iframe').each(function(){
+					url = jQuery(this).attr("src");
+					if(typeof url === 'undefined'){
+					
+					}else{
+						if(url != ''){
+														if(url.search(/youtube.com\/embed/i)>0){
+								if(url.search(/rel\=0/i)>0){
+									jQuery(this).attr("src",url+"&wmode=transparent");
+								}else{
+									jQuery(this).attr("src",url+"?wmode=transparent");
+								}
+							}
+													}
+					}
+				});
+	    	}
+		}
+	}
+	
+	function jtuov3lzzk_forceclose(){
+		has_been_closed = true;
+		jQuery(document).unbind("contextmenu");
+		clearTimeout(timed_function);
+		if (typeof jQuery !== 'undefined') {
+			jQuery(document).unbind("contextmenu");
+			clearTimeout(timed_function);
+			if (typeof jtuov3lzzk !== 'undefined') {
+				jQuery.jtuov3lzzk.remove();				
+			}
+		} else {
+					}
+	}
+	function jtuov3lzzk_completed(){
+		has_been_closed = true;
+		jQuery(document).unbind("contextmenu");
+		clearTimeout(timed_function);
+		jQuery.jtuov3lzzk.remove();
+			}
+	var timed_function;
+	var first_click_ajax = false;
+	
+	function Start_Ajax(){
+		clearTimeout(timed_function);
+		first_click_ajax = true;
+		jQuery('#offerlst').hide();
+		jQuery('#offerwait').show();
+		timed_function = setTimeout("check_lead();",20000);	}
+	
+	function Back_Ajax(){
+		jQuery('#offerwait').hide();
+		jQuery('#offerlst').fadeIn('slow');
+	}
+
+	var m_ext = '';
+	var c_ext = '';
+	var t_val = '0';
+	var t_ext = '&t='+t_val;
+	var l_val = false;
+	
+	function check_lead(){
+		t_ext = '&t='+t_val;
+		jQuery.ajax({
+			type: "POST",
+			crossDomain: true,
+			data: "a=2&a_t=86400&lkt=1&lid=1392319&lid2=jtuov3lzzk&p=213672"+m_ext+c_ext+t_ext,
+			url: "https://www.cpagrip.com/common/ajax_check_status.php",
+			success: function(msg){
+				eval(msg);
+			}
+		});
+	}
+	
+	var dataCache = {};
+		var dref = 0;
+	var last_dref_id = null;
+	var lid2 = "jtuov3lzzk";
+	
+	var safe_for_reload = false;
+	
+	function update_inline_data() {
+		
+		var ts = Math.floor(Date.now()/1000);
+		var script = document.createElement("script"); 
+	    script.type = 'text/javascript'; 
+	    script.async = true;
+	    script.id = 'preld'+(++dref);
+	    
+	    script.src = "https:\/\/www.cpagrip.com\/common\/preload.php?a=1&t="+ts+'&r='+(dref)+(l_val ? '&l_val=1' : '')+'&lkt=1&dat='+encoded;
+	    
+	    var script_tags = document.getElementsByTagName("script");
+	    if (script_tags.length != 0) {
+		    var s = document.getElementsByTagName("script")[0];
+		    s.parentNode.insertBefore(script, s);
+	    } else {
+	    	var head_tags = document.getElementsByTagName("head");
+	    	if (head_tags.length != 0) {
+			    var h = document.getElementsByTagName("head")[0];
+			    h.parentNode.insertBefore(script, h);
+	    	} else {
+		    	var html_tags = document.getElementsByTagName("html");
+		    	if (html_tags.length != 0) {
+				    var h = document.getElementsByTagName("html")[0];
+				    h.appendChild(script);
+		    	} 
+	    	}
+	    }
+		
+		if (last_dref_id !== null) {
+			jQuery("#"+last_dref_id).remove();
+		}
+		last_dref_id = script.id;
+		safe_for_reload = true;
+	}
+					
+	function completion_notice(msg) {
+		alert(msg);
+	}
+	
+	var inline_html_init = false;
+	
+	var noa_fcn = null;
+	var pca_fcn = null;
+	var cmp_fcn = null;
+	
+	
+	function update_inline_html(data) {
+		if (has_been_closed) {
+						return;
+		}
+		if (typeof data === 'undefined') {
+			data = preload_data;
+		}
+		
+				if (typeof jQuery === "undefined") {
+						return;
+		}
+
+		var mainText = jQuery("#txtheader");
+		var mainTextCurrent = mainText.html();
+		var completed = 0;
+		var mainTextUpdate = null;
+		var smallTextUpdate = null;
+		var fontSizeUpdate = null;
+		
+		if (typeof data !== "undefined") {
+			dataCache = data;
+		}
+				var has_items = false;
+		if (typeof data.items !== "undefined" && typeof data.items.length !== "undefined" && data.items.length > 0) {
+			has_items = true;
+		}
+		if (typeof data.t_val !== "undefined") {
+			t_val = data.t_val;
+		}
+
+		if (typeof data.multi !== "undefined") {
+
+			if (typeof data.multi.completed !== "undefined") {
+				completed = data.multi.completed;
+			}
+			if (completed >= 0 && has_items == false) {
+				c_ext = '&c='+completed;
+			}
+			if (completed >= 0) {
+				if (typeof data.multi.count !== "undefined" && data.multi.count > 0) {
+					m_ext = '&m='+data.multi.count;
+				}
+								if (typeof data.multi.count !== "undefined" && data.multi.count > 1) {
+					if (has_items && completed >= data.multi.count) {
+						check_lead();
+					}
+				}
+			}
+		
+			if (completed == 0 && mainTextCurrent != data.multi.message0) {
+				mainTextUpdate = data.multi.message0;
+			} else if (completed == 1 && mainTextCurrent != data.multi.message1) {
+				mainTextUpdate = data.multi.message1;
+			} else if (completed == 2 && mainTextCurrent != data.multi.message2) {
+				mainTextUpdate = data.multi.message2;
+			}
+		}
+		
+				if (typeof data.partial_js !== 'undefined') {
+				
+			pca_fcn = function() {
+				try {
+				    eval(data.partial_js);
+				} catch (e) {
+					console.log( e );
+				}
+			};
+				
+		} else if (typeof data.partial_message !== 'undefined') {
+			pca_fcn = function() {
+				try {
+				    completion_notice(data.partial_message);
+				} catch (e) {
+					console.log( e );
+				}
+			};
+		}
+
+		if (typeof data.complete_url !== 'undefined') {
+			cmp_fcn = function() {
+				try {
+					if (top.location.href != data.complete_url) {
+				    	top.location.href = data.complete_url;
+				  } else {
+				  	if (safe_for_reload = true) {
+				   		top.location.href = data.complete_url;
+				   }
+				  }
+				} catch (e) {
+					console.log( e );
+				}
+			};
+		} else if (typeof data.complete_js !== 'undefined') {
+			
+			cmp_fcn = function() {
+				try {
+				    eval(data.complete_js);
+				} catch (e) {
+					console.log( e );
+				}
+			};
+		} else if (typeof data.complete_reload !== 'undefined') {
+			cmp_fcn = function() {
+				jtuov3lzzk_completed();
+				try {
+					if (safe_for_reload == true) {
+				   		top.location.href = top.location.href;
+				   }
+				} catch (e) {
+					console.log( e );
+				}
+			};
+		} else if (typeof data.complete_message !== 'undefined') {
+			cmp_fcn = function() {
+				try {
+				    alert(data.complete_message);
+				} catch (e) {
+					console.log( e );
+				}
+			};
+		}
+		var rows = [];
+		if (has_items) {
+			for (var i = 0;i < data.items.length;i++) {
+				var item = data.items[i];
+				var target_url = item.url;
+				if (tracking_id != '') {
+					target_url += '&tracking_id='+tracking_id;
+				}
+				var row = '<p class="each_p_elm non_mobile_offer" style="text-align: center;">'+
+    				    					'<a class="tip_over_link link_a" title="'+item.desc+'" onclick="Start_Ajax();" target="'+item.target+'" href="'+target_url+'">'+item.name+'</a>'+
+    				    			'</p>';
+    			rows.push(row);
+			}
+		} else {
+			if (typeof data.no_offers_message !== 'undefined') {
+				var row = '<p class="link_a" style="margin: 2px; text-align: center;">'+data.no_offers_message+'<br></p>';
+				rows.push(row);
+			}
+		}
+		if (typeof data.no_offers_url !== 'undefined') {
+							
+			if (typeof data.complete === 'undefined' || data.complete != true){
+				
+				noa_fcn = function() {
+					top.location.href = data.no_offers_url;
+				};
+				
+			}
+		} else if (typeof data.no_offers_js !== 'undefined') {
+			
+			noa_fcn = function() {
+				try {
+				    eval(data.no_offers_js);
+				} catch (e) {
+					console.log( e );
+				}
+			};
+	
+			
+		}
+		
+		jQuery('#offerwait').hide();
+		jQuery('#offerload').hide();
+		jQuery('#offerlst').html(rows.join(''));
+		if (fontSizeUpdate !== null) {
+			jQuery("#offerlst").css({ 'font-size' : fontSizeUpdate });
+		}
+		if (smallTextUpdate !== null) {
+			jQuery('#smallTitle').html(smallTextUpdate);
+		}
+		if (mainTextUpdate !== null) {
+			mainText.html(mainTextUpdate);
+		}
+		jQuery('#offerlst').show();
+					
+		
+		inline_html_init = true;
+		
+		
+		if (noa_fcn !== null) {
+						noa_fcn();
+		}
+		if (pca_fcn !== null) {
+						pca_fcn();
+		}
+		if (cmp_fcn !== null) {
+						cmp_fcn();
+		}
+		if (typeof data.complete !== 'undefined' && data.complete) {
+			jtuov3lzzk_completed();
+		}
+	}
+	</script>
+<script language="JavaScript">
+	var setcheckintval = 0;
+	var jQueryLoaded = false;
+	var dataLoaded = false;
+	var itemsDisplayed = false;
+	var check_timeout = 2500;
+	
+	function setcheckintv() {
+		setcheckintval++;
+		
+		jQueryLoaded = (typeof jQuery !== 'undefined' ? true : false);
+		
+		if (jQueryLoaded) {
+			itemsDisplayed = (jQuery('#offerlst').css('display') != 'none' ? true : false);
+		}
+		dataLoaded = (typeof preload_data !== 'undefined' ? true : false);
+		
+		if (has_been_closed) {
+						
+			return;
+		}
+		
+		if ((first_click_ajax) || jQueryLoaded && dataLoaded && itemsDisplayed) {
+						if (setcheckintval > 1) {
+				//required more than 1 failsafe to load correctly
+				update_status_check();
+			}
+		} else if (jQueryLoaded && dataLoaded && itemsDisplayed == false) {
+			if (setcheckintval < 3) {
+								update_inline_html();
+				setTimeout(setcheckintv,check_timeout);
+			} else {
+								update_status_check();
+			}
+			
+		} else if (dataLoaded == false) {
+			
+			if (setcheckintval < 2) {
+								update_inline_data();
+				setTimeout(setcheckintv,check_timeout);
+			} else {
+								update_status_check();
+			}
+		}
+		
+	}
+	function update_status_check() {
+		var flags = (jQueryLoaded ? '1' : '0') + (dataLoaded ? '1' : '0') +(itemsDisplayed ? '1' : '0');
+		var img = new Image();
+		img.src = "https://www.cpagrip.com/common/dom_update.php?t=1681272498&lid=1392319"+'&flags='+flags+'&intv='+setcheckintval;
+	}
+		setTimeout(setcheckintv,check_timeout+0);
+	</script>
+<link href="./&#39;New Content Locker&#39; Preview_files/css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	.nInformation {
+				background: url("https://www.cpagrip.com/admin/images/icons/notifications/information.png") no-repeat scroll 15px center #DEEEFA;
+				border: 1px solid #AFD3F2;
+		color: #235685;
+	}
+	.nNote p {
+		color: #565656;
+		font-size: 11px;
+		margin: 0;
+		padding: 10px 25px 10px 54px;
+	}
+	.p{
+		margin:0px;
+	}
+	#jtuov3lzzk{
+		font-family: 'Lato', sans-serif;
+		line-height: 1;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+
+		
+	}
+	#txtheader{
+		color:black;
+		cursor:default;
+	}
+	#offerlst{
+		min-height: 80px;
+		margin-bottom: 8px;
+		font-size: 18px;
+	}
+	
+	.link_a, .link_a:link{
+		padding:1px;
+		color: blue;
+		font-weight: normal;
+		text-decoration:none;
+		-moz-transition: color 0.2s ease-out 0s;
+		-moz-transition: border 0.2s ease-out 0s;
+		
+		
+	}
+	.link_a:hover{
+		color:green !important;
+		border:1px solid black;
+		border-radius:5px;
+		background-color:white;
+		padding: 1px 3px 2px;
+	}
+	
+	.each_p_elm{
+		margin: 6px;
+		padding: 0;
+	}
+			.tipsy{
+			padding: 4px; font-size: 13px; position: absolute; z-index: 100000;
+			font-family: 'Lato', sans-serif;
+			line-height: 1.5;
+		}
+		.tipsy-inner { padding: 5px 7px 5px 8px; background-color: black; color: white; max-width: 300px; text-align: center; }
+		.tipsy-inner { border-radius: 3px; -moz-border-radius:3px; -webkit-border-radius:3px; }
+		.tipsy-arrow { position: absolute; background: url('https://www.cpagrip.com/common/tipsy.gif') no-repeat top left; width: 9px; height: 5px; }
+		.tipsy-w { margin-left: 5px; }
+		.tipsy-w .tipsy-arrow { top: 50%; margin-top: -4px; left: 0; width: 5px; height: 9px; }	
+		#t0byby1Title{
+		cursor:default;
+	}
+	
+		
+		#t0byby1LoadedContent{
+		background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7K9Q8RuMW6UNgJ-vSocyBhHwhmn2Kecz1CGJ__b8Fmxjv2N7h3zKwbBQSABS_TlVwrNhxKZEPOXa1A0Jkuhs2pj_SRT9AUdBNYwpC8E3_gto3M-4BqPmrt0w7N0s56GEEbOc43PixX-ni9w6eprVAK1q4uGWCqX9icBWMWPRJ38IdK6dC7W7cpndfjQ/s1600/x');
+		background-repeat: repeat-x;
+	}
+		#txtheader {
+	color: #ffffff !important;
+	padding-bottom: 145px !important;
+	padding-top: 20px !important;
+	font-size: 14px !important;
+	padding-left:100px !important;
+}
+#txtheader font {
+	font-size: 13px !important;
+}
+#t0byby1LoadedContent {
+ border: 0 !important;
+}
+.link_a {
+	color: #ffffff !important;
+}
+#offerwait {
+	color: #ffffff;
+}
+.link_a:hover {
+	color: #0600a6 !important;
+}
+
+</style>
+<div style="display:none;">
+	<div style="display: none;"></div>
+</div>
+
+	
+	
+		<div>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae lectus risus. Sed commodo sagittis tincidunt. Nulla purus neque, consequat sit amet bibendum sed, consequat eu neque. Etiam justo justo, bibendum at dapibus id, faucibus sit amet risus. Duis placerat felis at libero ultricies placerat. In hac habitasse platea dictumst. Ut orci ante, vulputate in porta a, rhoncus vitae sapien. Donec iaculis commodo consectetur. Mauris in odio at sem dictum ultricies eu id purus. Morbi dolor erat, facilisis id accumsan sed, sodales non magna. Etiam vestibulum lectus quis tortor dignissim at pellentesque nibh vulputate. Donec justo purus, rutrum vitae auctor vitae, bibendum sit amet enim.
+			<br><br>
+			Duis vehicula sagittis nisi ac aliquam. Phasellus laoreet placerat augue, nec varius nulla mattis commodo. Nunc pretium, felis eget scelerisque aliquam, eros nisi egestas sem, ac fermentum orci lorem vitae massa. Vivamus et leo a lacus ultricies fermentum. Nulla urna quam, lobortis sed tincidunt in, vulputate eget mauris. Nunc imperdiet eleifend eleifend. Cras turpis felis, accumsan eu tempor ut, vulputate a metus. Nullam semper pulvinar orci, eu porta nisi rhoncus sed. Sed et leo dolor. Ut odio arcu, posuere non scelerisque sed, pulvinar eu turpis. Cras lacinia, ipsum in laoreet mollis, justo eros dignissim nulla, sit amet mattis mi nulla nec est. Praesent a lorem sem, ac ultrices magna. Phasellus eu libero purus, in condimentum erat. Aenean convallis vehicula diam vel placerat.
+			In eu nulla lorem. Praesent auctor, sapien et iaculis viverra, risus sapien posuere velit, et semper enim libero nec augue. Fusce adipiscing semper placerat. Proin quis dui vitae nibh vulputate aliquam. Sed sit amet arcu at quam vestibulum porta eget eget turpis. Proin diam quam, aliquet dignissim fringilla eget, consectetur ultrices mauris. Nunc accumsan faucibus purus, sit amet pellentesque purus blandit eu. Sed commodo adipiscing tempor. Ut id lectus nisi. Ut orci orci, viverra vel porta et, suscipit eu massa. Mauris turpis risus, semper sed hendrerit non, posuere vel mauris. Morbi imperdiet egestas orci a rutrum. Pellentesque risus arcu, faucibus mollis sollicitudin vitae, ornare id turpis.
+						Morbi varius, urna at faucibus euismod, sem leo bibendum sapien, nec malesuada nisi erat sed ligula. Nunc nec porta massa. Maecenas in sem est. Praesent quis nisi justo. Morbi a diam quam, vitae semper eros. Suspendisse semper elit id sem dignissim vel dictum enim volutpat. Phasellus blandit fringilla commodo. Etiam quam lorem, dictum eget viverra eget, varius vel tellus. Maecenas elit risus, viverra non fermentum vitae, bibendum quis metus. Cras hendrerit commodo nisi ac egestas. Curabitur id lacus metus, eu elementum elit.
+			Sed et sem vel massa vulputate vulputate. Vivamus ac odio lectus. Nunc ornare tincidunt leo et pretium. Pellentesque semper rhoncus elit, a sollicitudin nulla suscipit vitae. Nulla euismod, quam ac vestibulum faucibus, mauris odio consectetur sapien, quis placerat ante erat quis augue. Morbi euismod cursus sapien, eget lobortis magna placerat eget. Duis a nibh ut lectus faucibus hendrerit ut pharetra sem.
+			<br><br>
+			Duis vehicula sagittis nisi ac aliquam. Phasellus laoreet placerat augue, nec varius nulla mattis commodo. Nunc pretium, felis eget scelerisque aliquam, eros nisi egestas sem, ac fermentum orci lorem vitae massa. Vivamus et leo a lacus ultricies fermentum. Nulla urna quam, lobortis sed tincidunt in, vulputate eget mauris. Nunc imperdiet eleifend eleifend. Cras turpis felis, accumsan eu tempor ut, vulputate a metus. Nullam semper pulvinar orci, eu porta nisi rhoncus sed. Sed et leo dolor. Ut odio arcu, posuere non scelerisque sed, pulvinar eu turpis. Cras lacinia, ipsum in laoreet mollis, justo eros dignissim nulla, sit amet mattis mi nulla nec est. Praesent a lorem sem, ac ultrices magna. Phasellus eu libero purus, in condimentum erat. Aenean convallis vehicula diam vel placerat.
+			In eu nulla lorem. Praesent auctor, sapien et iaculis viverra, risus sapien posuere velit, et semper enim libero nec augue. Fusce adipiscing semper placerat. Proin quis dui vitae nibh vulputate aliquam. Sed sit amet arcu at quam vestibulum porta eget eget turpis. Proin diam quam, aliquet dignissim fringilla eget, consectetur ultrices mauris. Nunc accumsan faucibus purus, sit amet pellentesque purus blandit eu. Sed commodo adipiscing tempor. Ut id lectus nisi. Ut orci orci, viverra vel porta et, suscipit eu massa. Mauris turpis risus, semper sed hendrerit non, posuere vel mauris. Morbi imperdiet egestas orci a rutrum. Pellentesque risus arcu, faucibus mollis sollicitudin vitae, ornare id turpis.
+			
+		
+		</div>
+	
+<div id="t0byby1Overlay" style="opacity: 0.85; cursor: help;"></div><div id="jtuov3lzzk" class="" style="padding-bottom: 20px; padding-right: 0px; top: 253px; left: 766px; position: fixed; width: 517px; height: 355px;"><div id="t0byby1Wrapper" style="height: 375px; width: 517px;"><div><div id="t0byby1TopLeft" style="float: left;"></div><div id="t0byby1TopCenter" style="float: left; width: 517px;"></div><div id="t0byby1TopRight" style="float: left;"></div></div><div style="clear: left;"><div id="t0byby1MiddleLeft" style="float: left; height: 355px;"></div><div id="t0byby1Content" style="float: left; width: 517px; height: 355px;"><div id="t0byby1LoadedContent" style="width: 517px; overflow: hidden; height: 355px;"><div id="qrwvsht" style="color: black;">
+					<div id="txtheader" style="margin-bottom: 8px;"><div style="font-weight: bold;"><br></div></div>
+							<div id="offerlst" style=""><p class="each_p_elm non_mobile_offer" style="text-align: center;"><a class="tip_over_link link_a" onclick="Start_Ajax();" target="_blank" href="https://www.cpagrip.com/show.php?cl=true&amp;l=1392319&amp;u=213672&amp;id=50808" original-title="أدخل رقم هاتفك المحمول الآن لبدء التنزيل.">قم بتنزيل أحدث محتوى!</a></p><p class="each_p_elm non_mobile_offer" style="text-align: center;"><a class="tip_over_link link_a" onclick="Start_Ajax();" target="_blank" href="https://www.cpagrip.com/show.php?cl=true&amp;l=1392319&amp;u=213672&amp;id=47277" original-title="أدخل معلوماتك الآن لتبدأ.">العب أحدث الألعاب!</a></p><p class="each_p_elm non_mobile_offer" style="text-align: center;"><a class="tip_over_link link_a" onclick="Start_Ajax();" target="_blank" href="https://www.cpagrip.com/show.php?cl=true&amp;l=1392319&amp;u=213672&amp;id=48945" original-title="أدخل معلوماتك الآن لتبدأ.">لعب فرسان الماس!</a></p><p class="each_p_elm non_mobile_offer" style="text-align: center;"><a class="tip_over_link link_a" onclick="Start_Ajax();" target="_blank" href="https://www.cpagrip.com/show.php?cl=true&amp;l=1392319&amp;u=213672&amp;id=41575" original-title="أدخل معلوماتك الآن لتبدأ.">حماية بياناتك الشخصية!</a></p><p class="each_p_elm non_mobile_offer" style="text-align: center;"><a class="tip_over_link link_a" onclick="Start_Ajax();" target="_blank" href="https://www.cpagrip.com/show.php?cl=true&amp;l=1392319&amp;u=213672&amp;id=33874" original-title="أدخل رقم هاتفك المحمول الآن لبدء التنزيل.">ابدأ بلعب Ninja Boy الآن!</a></p><p class="each_p_elm non_mobile_offer" style="text-align: center;"><a class="tip_over_link link_a" onclick="Start_Ajax();" target="_blank" href="https://www.cpagrip.com/show.php?cl=true&amp;l=1392319&amp;u=213672&amp;id=53551" original-title="أدخل رقم هاتفك المحمول الآن للبدء.">احصل على 500 جنيه رصيدك!</a></p></div>
+	    		    	<div style="clear:both;"></div>
+    	    	<div id="offerwait" style="font-size: 15px; display: none;">
+    		<p class="txt_goback" style="margin: 2px; text-align: center;">
+    			<span class="btn_back" onclick="Back_Ajax();" style="cursor:pointer;">
+	    			<img style="vertical-align: middle;" src="./&#39;New Content Locker&#39; Preview_files/back.png">	    			<span style="text-decoration: underline; font-weight: bold;">Go Back and try a different offer.</span>
+    			</span><br>
+    			<span class="txt_wait"><img style="vertical-align: middle;" src="./&#39;New Content Locker&#39; Preview_files/loader.gif"> Waiting for offer completion..</span>
+    		</p>
+    	</div>
+		<div id="offerload" style="font-size: 15px; display: none;">
+    		<p class="txt_goback" style="margin: 2px; text-align: center;">
+    			<span class="txt_wait"><img style="vertical-align: middle;" src="./&#39;New Content Locker&#39; Preview_files/spinner.gif">Loading...</span>
+    		</p>
+    	</div>
+	</div></div><div id="t0byby1LoadingOverlay" style="float: left; display: none;"></div><div id="t0byby1LoadingGraphic" style="float: left; display: none;"></div><div id="t0byby1Title" style="float: left; display: block;">Please Complete Below Survey to Unlock This Protected Content.</div><div id="t0byby1Current" style="float: left; display: none;"></div><div id="t0byby1Next" style="float: left; display: none;"></div><div id="t0byby1Previous" style="float: left; display: none;"></div><div id="t0byby1Slideshow" style="float: left; display: none;"></div></div><div id="t0byby1MiddleRight" style="float: left; height: 355px;"></div></div><div style="clear: left;"><div id="t0byby1BottomLeft" style="float: left;"></div><div id="t0byby1BottomCenter" style="float: left; width: 517px;"></div><div id="t0byby1BottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none;"></div></div></body></html>
